@@ -32,7 +32,7 @@ function increaseProgress() {
 }
 
 function fakeProgress(){
-    var wait =  Math.floor(Math.random() * (8000 - 1) + 1);
+    var wait =  Math.floor(Math.random() * (10000 - 1) + 1);
     setTimeout(increaseProgress, wait);
 }
 
