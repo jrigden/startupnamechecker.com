@@ -1,0 +1,22 @@
+.container {
+
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 20px;
+}
+
+#form-box, #name-box {
+    margin-top: 1em;
+}
